@@ -1,0 +1,53 @@
+body {
+  background: #32323e;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Color for btn-danger rgb(255, 71, 90) */
+
+.main-btn {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  background-color: rgb(107, 184, 255);
+  border: 1px solid #006aff;
+  border-radius: 1rem;
+  color: #32323e;
+  /*
+  color: rgb(225, 227, 230);
+  */
+  text-decoration: none;
+  height: 38px;
+  width: auto;
+  max-width: 5rem;
+  outline: none;
+  font-weight: 500;
+
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	
+  -webkit-box-shadow: -1px 2px 0px rgb(102, 111, 120);
+  -moz-box-shadow: -1px 2px 0px rgb(102, 111, 120);
+  box-shadow: -1px 2px 0px rgb(102, 111, 120);
+}
+
+.main-btn:hover {
+  background: rgb(133, 196, 255);
+  color: black;
+  transition: all 3s;
+}
+
+.main-btn:active {
+  /*
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  */
+  -webkit-box-shadow: 0px 0px 0px #388bff;
+  -moz-box-shadow: 0px 0px 0px #388bff;
+  box-shadow: 0px 0px 0px #388bff;
+  position:relative;
+  top:4px;
+}

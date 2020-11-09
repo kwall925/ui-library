@@ -12,9 +12,11 @@ body {
 .main-btn {
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   background-color: rgb(107, 184, 255);
-  border: 1px solid #006aff;
+  /*border: 1px solid #006aff;*/
+  border: 3px solid #33ffff;
   border-radius: 1rem;
-  color: #32323e;
+ /* color: #32323e;*/
+  color: black;
   /*
   color: rgb(225, 227, 230);
   */

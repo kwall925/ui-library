@@ -1,0 +1,126 @@
+body {
+  background: #32323e;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  /* width: 95vw;*/
+   width: auto;
+   height: 5%;
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 3vh;
+   align-items: center;
+   background: rgba(115, 120, 128, 0.5);
+   border-radius: 1rem;
+ }
+ 
+ nav:hover {
+   background: rgba(115, 120, 128, 0.7);
+ }
+ 
+ nav > a {
+   color:#33ffff;
+   margin: 0 6vw;
+   text-decoration: none;
+ }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.card-main {
+  /* Add shadows to create the "card" effect */
+  height: 350px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background: rgba(115, 120, 128, 0.5);
+  margin: 0 2vw;
+  color: #fff;
+}
+
+.card-main:hover {
+  background: rgba(115, 120, 128, 0.7);
+ /* box-shadow: 0 20px 35px 0 rgba(0,0,0,0.6);;*/
+ box-shadow: 0 20px 35px 0 rgba(115, 120, 128, 0.3);
+
+}
+
+
+.card-container {
+  padding: 2px 16px;
+  line-height: .5em;
+  margin-top: -10px;
+}
+
+.card-img {
+  border-top-right-radius: 3px;
+  border-top-left-radius:  .5rem;
+  background: rgba(115, 120, 128, 0.7);
+  height: 200px;
+  border-radius: 4px;
+  width: auto;
+  padding: 10px 10px;
+}
+
+.card-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ /* margin-top: -10px;*/
+}
+
+.main-btn {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  background-color: rgb(107, 184, 255);
+  /*border: 1px solid #006aff;*/
+  border: 3px solid #33ffff;
+  border-radius: 1rem;
+ /* color: #32323e;*/
+  color: black;
+  /*
+  color: rgb(225, 227, 230);
+  */
+  text-decoration: none;
+  height: 38px;
+  width: auto;
+  max-width: 5rem;
+  outline: none;
+  font-weight: 500;
+
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	
+  -webkit-box-shadow: -1px 2px 0px rgb(102, 111, 120);
+  -moz-box-shadow: -1px 2px 0px rgb(102, 111, 120);
+  box-shadow: -1px 2px 0px rgb(102, 111, 120);
+}
+
+.main-btn:hover {
+  background: rgb(133, 196, 255);
+  color: black;
+  transition: all 3s;
+}
+
+.main-btn:active {
+  /*
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  */
+  -webkit-box-shadow: 0px 0px 0px #388bff;
+  -moz-box-shadow: 0px 0px 0px #388bff;
+  box-shadow: 0px 0px 0px #388bff;
+  position:relative;
+  top:4px;
+}

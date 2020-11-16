@@ -2,11 +2,6 @@ create all components in seperate files.
 
 merge all components into master.css file 
 
-implement Julia's suggestions
-
-buttons
-  -red theme
-
 nav
   -red theme
   -box shadow

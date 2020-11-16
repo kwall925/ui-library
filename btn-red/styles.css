@@ -1,0 +1,55 @@
+/*@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300&display=swap');*/
+
+body {
+  background: #32323e;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Color for btn-danger rgb(255, 71, 90) */
+
+.btn-red {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+ /* background-color: rgb(255, 54, 64);8?
+  /*border: 1px solid #006aff;*/
+ /* border: 3px solid rgb(255, 36, 167);*/
+  border: 3px solid rgb(245, 66, 242);
+  background: rgb(252, 81, 90);
+  border-radius: 1rem;
+  color: rgb(61, 61, 61);
+  text-decoration: none;
+  height: 38px;
+  width: auto;
+  max-width: 5rem;
+  outline: none;
+  font-weight: 600;
+
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	
+  -webkit-box-shadow: -1px 2px 0px rgb(102, 111, 120);
+  -moz-box-shadow: -1px 2px 0px rgb(102, 111, 120);
+  box-shadow: -1px 2px 0px rgb(102, 111, 120);
+}
+
+.btn-red:hover {
+  background: rgb(255, 140, 146);
+  color: black;
+  transition: all 1s;
+}
+
+.btn-red:active {
+  /*
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  */
+  -webkit-box-shadow: 0px 0px 0px rgb(248, 41, 255);
+  -moz-box-shadow: 0px 0px 0px rgb(248, 41, 255);
+  box-shadow: 0px 0px 0px rgb(248, 41, 255);
+  position:relative;
+  top:4px;
+}

@@ -7,10 +7,13 @@ body {
   align-items: center;
 }
 
-
-.card-main {
-  /* Add shadows to create the "card" effect */
-  height: 350px;
+.main-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0;
+  height: auto;
   box-shadow: 0 12px 20px 0 rgba(0,0,0,0.7);
   transition: 0.3s;
   border: 1px solid grey;
@@ -20,34 +23,23 @@ body {
   color: #fff;
 }
 
-.card-main:hover {
+.main-form:hover {
   background: rgba(115, 120, 128, 0.7);
- /* box-shadow: 0 20px 35px 0 rgba(0,0,0,0.6);;*/
- box-shadow: 0 20px 35px 0 rgba(115, 120, 128, 0.4);
+  box-shadow: 0 20px 35px 0 rgba(115, 120, 128, 0.4);
 }
 
-
-.card-container {
-  padding: 2px 16px;
-  line-height: .5em;
-  margin-top: -10px;
+.main-form > label {
+  font-size: large;
+  font-weight: 600;
 }
 
-.card-img {
-  border-top-right-radius: 3px;
-  border-top-left-radius:  .5rem;
-  background: rgba(115, 120, 128, 0.7);
-  height: 200px;
-  border-radius: 4px;
-  width: auto;
-  padding: 10px 10px;
-}
-
-.card-sub {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
- /* margin-top: -10px;*/
+.main-form > input {
+  /*background: rgba(115, 120, 128, 0.7);*/
+  /*background: inherit;*/
+  background: white;
+  border-radius: 3px;
+  margin: 1vh 3vw;
+  color:rgb(171, 173, 175);
 }
 
 .main-btn {

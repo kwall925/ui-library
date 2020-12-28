@@ -10,11 +10,11 @@ body {
 .main-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5vh 0;
+  justify-content: flex-start;
+  padding: 5vh 4vw;
   height: auto;
-  width: 400px;
+  min-width: 500px;
+  width: auto;
   box-shadow: 0 12px 20px 0 rgba(0,0,0,0.7);
   transition: 0.3s;
   border: 1px solid grey;
@@ -30,9 +30,9 @@ body {
 }
 
 label {
-  font-size: small;
+  font-weight: bold;
   position: relative;
-  right: 4.3em;
+  text-shadow: 1px 1px rgb(107, 184, 255);
 }
 
 .main-form > input {
@@ -40,7 +40,8 @@ label {
   /*background: inherit;*/
   background: white;
   border-radius: 3px;
-  margin: 1vh 3vw;
+  height: 2em;
+  margin: 1vh 0;
   color:rgb(171, 173, 175);
 }
 

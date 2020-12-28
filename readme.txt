@@ -1,14 +1,8 @@
 create all components in seperate files. 
 
-merge all components into master.css file 
+merge all components into master.css file
 
-Title(Morena) to the left of nav bar
-
-Create a dropdown
-
-Create a form
-
-red theme must be brighter
+fix form
 
 example
   https://blissful-carson-ae867f.netlify.app/

@@ -23,11 +23,12 @@ body {
 .nav-red:hover {
   background: rgba(115, 120, 128, 0.7);
   box-shadow: 0 8px 16px 0 rgba(115, 120, 128, 0.4);
+  text-shadow: 1px 1px #32323e;
   transition: 0.6s;
 }
 
 .nav-red > a {
-  color:rgb(252, 81, 90);;
+  color: rgb(252, 81, 90);
   margin: 0 6vw;
   text-decoration: none;
 }

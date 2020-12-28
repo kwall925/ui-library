@@ -26,8 +26,18 @@ nav:hover {
   transition: 0.6s;
 }
 
+.logo {
+  color: white;
+  font-size: 1.7em;
+  font-weight: 500;
+  font-style: italic;
+  margin-left: 1.3em;
+  margin-bottom: 0.2em;
+  text-shadow: 0 0 4px #33ffff;
+}
+
 nav > a {
-  color:#33ffff;
+  color: #33ffff;
   margin: 0 6vw;
   text-decoration: none;
 }
@@ -35,4 +45,45 @@ nav > a {
 nav > a:hover {
   color: white;
   transition: 0.6s;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #33ffff;
+  padding: 14px 16px;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgb(115, 120, 128);
+  border-radius: 1rem;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: #33ffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

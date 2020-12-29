@@ -1,8 +1,8 @@
 create all components in seperate files. 
 
-merge all components into master.css file
-
-fix form
+Begin Documentation:
+-write exactly what must happen for a user 
+to use a component
 
 example
   https://blissful-carson-ae867f.netlify.app/

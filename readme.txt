@@ -9,3 +9,40 @@ example
 
 Bootstrap components
 https://getbootstrap.com/docs/4.5/components/alerts/
+
+navs 
+- To use a nav bar, call the .mo-nav class. The navbar uses 
+flexbox to automatically space content evenly, and the width
+will adjust based on the amount of content inside.
+-calling .nav-red will format the links to be red to provide
+an alternate look
+
+dropdowns
+-wrap all dropdown code inside of .dropdown class
+-call .dropbtn on the link where the dropdown items will begin
+-add a div with class .dropdown-content, and include links inside
+
+<embed code snippet>
+
+cards
+-start by calling the .card-main class, which will 
+constitute the entire card
+-the image goes next, and should have an attached
+.card-img class to ensure proper fitting
+-for the text content, call .card-conatiner to 
+hold it, and .card-sub for any small text within
+
+<embed code snippet>
+
+buttons
+-use .main-btn or btn-red
+
+<embed code snippet>
+
+forms
+-call .main-form. Labels and 
+inputs will be styled by default.
+-the form container will grow to 
+accomodate content
+-custom checkboxes and radio buttons
+will be coming soon.

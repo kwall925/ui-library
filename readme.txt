@@ -1,5 +1,10 @@
 create all components in seperate files. 
 
+container: make repsponisve similar to bootstrap. 
+-define color, hover, and border-radius
+
+h1-h6 : define color
+
 Begin Documentation:
 -write exactly what must happen for a user 
 to use a component
@@ -9,6 +14,11 @@ example
 
 Bootstrap components
 https://getbootstrap.com/docs/4.5/components/alerts/
+
+import font in css; cannot be used in html in this
+scenario
+
+view class
 
 navs 
 - To use a nav bar, call the .mo-nav class. The navbar uses 

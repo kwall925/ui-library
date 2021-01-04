@@ -1,27 +1,15 @@
 body {
   background: #32323e;
   font-family: 'IBM Plex Sans Condensed', sans-serif;
-  display: flex;
+}
+
+.view {
   height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
-nav {
- /* width: 95vw;*/
-  width: auto;
-  height: 5%;
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 3vh;
+  flex-direction: column;
   align-items: center;
-  background: rgba(115, 120, 128, 0.5);
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
-  border-radius: 1rem;
-  border: 1px rgb(115, 120, 128);
+  justify-content: center;
 }
-
-
 
 .logo {
   color: white;
@@ -34,17 +22,17 @@ nav {
 }
 
 .mo-nav {
- /* width: 95vw;*/
   width: auto;
   height: 5%;
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 3vh;
+  justify-content: space-around;
   align-items: center;
   background: rgba(115, 120, 128, 0.5);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   border-radius: 1rem;
   border: 1px rgb(115, 120, 128);
+  position: absolute;
+  top: 4em;
 }
 
 .mo-nav:hover {
@@ -116,7 +104,6 @@ nav {
 }
 
 .nav-red {
- /* width: 95vw;*/
   width: auto;
   height: 5%;
   display: flex;
@@ -150,9 +137,6 @@ nav {
 
 .btn-red {
   font-family: 'IBM Plex Sans Condensed', sans-serif;
- /* background-color: rgb(255, 54, 64);8?
-  /*border: 1px solid #006aff;*/
- /* border: 3px solid rgb(255, 36, 167);*/
   border: 3px solid rgb(245, 66, 242);
   background: rgb(252, 81, 90);
   border-radius: 1rem;
@@ -163,11 +147,9 @@ nav {
   max-width: 5rem;
   outline: none;
   font-weight: 600;
-
   -webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-	
   -webkit-box-shadow: -1px 2px 0px rgb(102, 111, 120);
   -moz-box-shadow: -1px 2px 0px rgb(102, 111, 120);
   box-shadow: -1px 2px 0px rgb(102, 111, 120);
@@ -180,10 +162,6 @@ nav {
 }
 
 .btn-red:active {
-  /*
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-  */
   -webkit-box-shadow: 0px 0px 0px rgb(248, 41, 255);
   -moz-box-shadow: 0px 0px 0px rgb(248, 41, 255);
   box-shadow: 0px 0px 0px rgb(248, 41, 255);
@@ -210,8 +188,8 @@ nav {
   outline: none;
   font-weight: 600;
   -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
   -webkit-box-shadow: -1px 2px 0px rgb(102, 111, 120);
   -moz-box-shadow: -1px 2px 0px rgb(102, 111, 120);
   box-shadow: -1px 2px 0px rgb(102, 111, 120);
@@ -224,10 +202,6 @@ nav {
 }
 
 .main-btn:active {
-  /*
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-  */
   -webkit-box-shadow: 0px 0px 0px #388bff;
   -moz-box-shadow: 0px 0px 0px #388bff;
   box-shadow: 0px 0px 0px #388bff;
@@ -236,7 +210,6 @@ nav {
 }
 
 .card-main {
-  /* Add shadows to create the "card" effect */
   height: 350px;
   box-shadow: 0 12px 20px 0 rgba(0,0,0,0.7);
   transition: 0.3s;
@@ -249,8 +222,7 @@ nav {
 
 .card-main:hover {
   background: rgba(115, 120, 128, 0.7);
- /* box-shadow: 0 20px 35px 0 rgba(0,0,0,0.6);;*/
- box-shadow: 0 20px 35px 0 rgba(115, 120, 128, 0.4);
+  box-shadow: 0 20px 35px 0 rgba(115, 120, 128, 0.4);
 }
 
 
@@ -274,7 +246,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
- /* margin-top: -10px;*/
 }
 
 .main-form {
@@ -306,11 +277,36 @@ label {
 }
 
 .main-form > input {
-  /*background: rgba(115, 120, 128, 0.7);*/
-  /*background: inherit;*/
   background: white;
   border-radius: 3px;
   height: 2em;
   margin: 1vh 0;
   color:rgb(171, 173, 175);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+  background: rgba(115, 120, 128, 0.5);
+  box-shadow: 0 12px 20px 0 rgba(0,0,0,0.7);
+  transition: 0.3s;
+  border: 1px solid grey;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.container:hover {
+  background: rgba(115, 120, 128, 0.7);
+  box-shadow: 0 20px 35px 0 rgba(115, 120, 128, 0.4);
+}
+
+.hero {
+  margin-top: 6em;
+  padding: 4em 4em;
+}
+
+.cssimg {
+
 }

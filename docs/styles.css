@@ -179,12 +179,10 @@ body {
   align-items: center;
   padding: 0.5em 0.7em;
   color: black;
-: rgb(225, 227, 230);
   text-decoration: none;
   height: auto;
   max-height: 38px;
   width: auto;
-  max-width: 5rem;
   outline: none;
   font-weight: 600;
   -webkit-transition: all 0.3s;
@@ -197,6 +195,7 @@ body {
 
 .main-btn:hover {
   background: rgb(133, 196, 255);
+  text-decoration: none;
   color: black;
   transition: all 3s;
 }
@@ -287,14 +286,13 @@ label {
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding: 3em;
   background: rgba(115, 120, 128, 0.5);
   box-shadow: 0 12px 20px 0 rgba(0,0,0,0.7);
   transition: 0.3s;
-  border: 1px solid grey;
-  border-radius: 4px;
-  align-items: center;
+  border-radius: 1rem;
 }
 
 .container:hover {

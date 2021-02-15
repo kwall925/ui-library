@@ -1,12 +1,15 @@
-create all components in seperate files. 
+use this as a guideline of how to build docs:
+http://getskeleton.com/
 
-container: make repsponisve similar to bootstrap. 
+create all components in seperate files.
+
+container: make repsponisve similar to bootstrap.
 -define color, hover, and border-radius
 
 h1-h6 : define color
 
 Begin Documentation:
--write exactly what must happen for a user 
+-write exactly what must happen for a user
 to use a component
 
 example
@@ -20,8 +23,8 @@ scenario
 
 view class
 
-navs 
-- To use a nav bar, call the .mo-nav class. The navbar uses 
+navs
+- To use a nav bar, call the .mo-nav class. The navbar uses
 flexbox to automatically space content evenly, and the width
 will adjust based on the amount of content inside.
 -calling .nav-red will format the links to be red to provide
@@ -35,11 +38,11 @@ dropdowns
 <embed code snippet>
 
 cards
--start by calling the .card-main class, which will 
+-start by calling the .card-main class, which will
 constitute the entire card
 -the image goes next, and should have an attached
 .card-img class to ensure proper fitting
--for the text content, call .card-conatiner to 
+-for the text content, call .card-conatiner to
 hold it, and .card-sub for any small text within
 
 <embed code snippet>
@@ -50,9 +53,9 @@ buttons
 <embed code snippet>
 
 forms
--call .main-form. Labels and 
+-call .main-form. Labels and
 inputs will be styled by default.
--the form container will grow to 
+-the form container will grow to
 accomodate content
 -custom checkboxes and radio buttons
 will be coming soon.

@@ -47,6 +47,10 @@ body {
   transition: 0.6s;
 }
 
+.miniNav {
+  display: none;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -86,4 +90,51 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 750px) {
+
+  .mo-nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    top: 30px;
+    left: 30px;
+  }
+
+  .burger > img {
+    height: 80px;
+  }
+
+  .miniNav {
+    display: none;
+    background: white;
+  }
+
+  .miniNav > li > a {
+    padding-left: 0.7em;
+    background: rgba(255, 255, 255, 0.9);
+    color: #579dff;
+  }
+
+  .miniNav > li > a:hover {
+    border-bottom: #00fac0;
+  }
+
+  .close {
+    cursor: pointer;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    top: 15px;
+    right: 15px;
+  }
+
+  .close > img {
+    height: 85px;
+    background: rgba(255, 255, 255, 0.9);
+  }
 }
